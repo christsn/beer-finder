@@ -1,0 +1,39 @@
+.header {
+  position: fixed;
+  width:100%;
+  left:0;
+  top:0;
+  right: 0; 
+  z-index: 1000;
+  background: black;
+  box-shadow: 0 5px 10px gray;
+}
+
+.logo {
+  height: 32px;
+  float: left;
+  margin: 16px 24px 16px 0;
+}
+
+.menu {
+  background: black !important;
+}
+
+.authControl {
+  position: absolute; 
+  top: 0; 
+  right: 50px; 
+  display: border-box;
+}
+
+.username {
+  display: inline-block;
+  margin-right: 16px;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .username { 
+    display: none; 
+  }
+}

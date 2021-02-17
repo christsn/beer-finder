@@ -1,0 +1,13 @@
+.layout {
+  min-height: 100vh;
+  height: max-content;
+}
+
+.content {
+  margin-top: 60px;
+  padding: 0 50px;
+}
+
+.footer {
+  text-align: center;
+}

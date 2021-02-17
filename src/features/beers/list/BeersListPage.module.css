@@ -1,0 +1,27 @@
+.form {
+  margin-top: 30px;
+}
+
+.inputNumber {
+  width: 100%;
+}
+
+.beerItem {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  border-radius: 50% !important;
+  text-align: center;
+  background: #F9F39F !important;
+  background: -webkit-linear-gradient(top left, #F9F39F, #F7E668) !important;
+  background: -moz-linear-gradient(top left, #F9F39F, #F7E668) !important;
+  background: linear-gradient(to bottom right, #F9F39F, #F7E668) !important;
+}
+
+.beerImage {
+  height: 150px;
+}
+
+.strongBeer {
+  color: red;
+}
